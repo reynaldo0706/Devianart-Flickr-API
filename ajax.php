@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 $query = urlencode(stripslashes($_POST['q']));
 
 $keywords = $query;
-$xmlurl   = "http://backend.deviantart.com/rss.xml?q=boost%3Apopular+in%3Acustomization%2Ficons%2Fsigbanners+".$keywords;
+$xmlurl   = "https://backend.deviantart.com/rss.xml?q=boost%3Apopular+in%3Acustomization%2Ficons%2Fsigbanners+".$keywords;
 
 $xmlrss = file_get_contents($xmlurl);
 $xmlrss = str_replace('<media:', '<', $xmlrss);
