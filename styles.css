@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html { height: 101%; }
+body { font-size: 62.5%; line-height: 1; background: #445148; padding-bottom: 65px; }
+
+::selection { background: #bbd5b3; color: #72846d; }
+::-moz-selection { background: #bbd5b3; color: #72846d; }
+::-webkit-selection { background: #bbd5b3; color: #72846d; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+a { color: #71826c; }
+a:hover { color: #317b94; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+h1 { font-family: "Finger Paint", "Trebuchet MS", Tahoma, Arial, sans-serif; font-size: 2.6em; line-height: 1.55em; margin-bottom: 3px; font-weight: normal; color: #454545; }
+h2 { font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 1.6em; line-height: 1.4em; text-transform: uppercase; font-weight: normal; letter-spacing: 0.22em; color: #969696; margin-bottom: 15px; text-shadow: 0px 1px 0px #fff; }
+
+
+#w { 
+  max-width: 800px; 
+  min-width: 350px; 
+  margin: 0 auto; 
+  box-sizing: border-box; 
+  padding: 15px 22px; 
+  padding-bottom: 40px;
+  background: #dde9db; 
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* search form */
+#searchform { display: block; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #c0d0bc; text-align: center; }
+
+#searchform #s { 
+  outline: none; 
+  border: 1px solid #b5c6b2; 
+  padding: 5px 8px; 
+  font-size: 1.55em; 
+  font-family: Tahoma, Arial, sans-serif; 
+  letter-spacing: 0.12em; 
+  color: #98a295; 
+  background: #e7f2e6; 
+  width: 70%; 
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2) inset; 
+  transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -webkit-transition: all .15s linear;
+  -o-transition: all .15s linear;
+}
+
+#searchform #s:focus { border-color: #9baa98; background: #eaf5e9; color: #727272; }
+
+center#loader { display: none; padding-top: 25px; }
+
+/* content media display */
+span.results { display: block; font-size: 1.2em; font-style: italic; font-family: Georgia, serif; margin-bottom: 12px; color: #656565; }
+.listing { display: block; padding-bottom: 30px; margin-bottom: 25px; border-bottom: 3px dashed #a8baa2; }
+
+.listing header { display: block; margin-bottom: 7px; }
+.listing header h3 { font-size: 2.25em; font-weight: bold; font-family: Arial, Verdana, sans-serif; }
+
+.listing header h3 a { text-decoration: none; }
+.listing header h3 a:hover { text-decoration: underline; }
+
+.listing header h3 .userdata  { 
+  float: right;
+  margin-right: 10px;
+  font-size: 0.65em; 
+  font-weight: normal; 
+  line-height: 35px;
+  opacity: 0.6; 
+  transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+.listing header h3 .userdata a { text-decoration: none; color: #71826c; }
+.listing header h3 .userdata .avatar { position: relative; top: 10px; margin-right: 3px; }
+.listing header h3 .userdata:hover { opacity: 1; }
+
+.listing .thumbnail { float: left; display: block; margin-right: 25px; }
+
+.listing .morelinks { display: inline-block; margin-top: 30px; font-size: 1.4em; font-weight: bold; font-family: Arial, Tahoma, sans-serif; }
+.listing .morelinks a { display: block; text-decoration: none; margin-bottom: 15px; }
+
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
