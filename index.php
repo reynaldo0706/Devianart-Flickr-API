@@ -130,7 +130,7 @@
 
 
 
-            $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+            $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 
 
 
@@ -610,7 +610,7 @@
 
 
 
-		<h1>DeviantArt Instant Search</h1>
+		<h1>DeviantArt & Flickr Instant Search</h1>
 
 
 
